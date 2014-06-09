@@ -894,7 +894,8 @@ ul.sf-menu li li li.sfHover ul {
 	
 /* Content */
 
-.content { 
+.content {
+padding-top: 62px; 
 -webkit-box-shadow: 0px 3px 7px rgba(50, 50, 50, 0.3);
 -moz-box-shadow:    0px 3px 7px rgba(50, 50, 50, 0.3);
 box-shadow:         0px 3px 7px rgba(50, 50, 50, 0.3);
@@ -1353,10 +1354,10 @@ h4.comment_title i { margin-right: 15px; color: #ccc;}
 .content_wrapper_gray { background-color: #f0f0f0; border-top: 1px solid #e3e3e3;}
 .content_wrapper_black { background-color: #3899b5; border-top: 0px solid #fff; border-bottom: 0px solid #777;}
 .content_wrapper_blue { background-color: #3899b5;}
-.main_title_wrapper { Padding: 60px 0px 10px 0px; position: relative;} 
-.main_title_wrapper2  { Padding: 30px 0px 10px 0px; position: relative;} 
-.block_tile_wrapper { padding-top: 5px; padding-left: 20px;}
-.block_tile_wrapper h1.block_tile_1 { font-family: 'Raleway', sans-serif; font-size: 34px; text-transform: uppercase;font-weight: bold; color: #333;  line-height: 30px; text-align: center; }
+.main_title_wrapper { Padding: 0px 0px 10px 0px; position: relative;} 
+.main_title_wrapper2  { Padding: 0px 0px 10px 0px; position: relative;} 
+.block_tile_wrapper { padding-top: 50px; padding-left: 20px;}
+.block_tile_wrapper h1.block_tile_1 { font-family: 'Raleway', sans-serif; font-size: 40px; text-transform: uppercase;font-weight: bold; color: #333;  line-height: 30px; text-align: center; }
 .block_tile_wrapper h6.block_tile_2 { font-size: 14px;font-weight: normal; color: #888; margin-top: 15px; text-align: center;font-family: sans-serif; line-height: 27px; }
 
 .readmore_holder { background-color: #3899b5; padding: 7px 10px ; right:0; display: inline; margin-top: -36px; position: absolute;}
@@ -1662,7 +1663,7 @@ img.bg_full {
 .coop_control p { font-size: 14px !important; font-weight: bold; text-align: center; color: #fff !important; padding-top: 15px;}
 .white_color {color: #fff !important;}
 
-.coop_control_wrapper { padding: 0px 0px 20px 0px; position: relative;}
+.coop_control_wrapper { padding: 0px 0px 0px 0px; position: relative;}
 .color_white { color: #fff !important;} 
 .team_h_title { text-align: center; margin: 0 auto; }
 .team_h_title a h2 { font-weight: bold; font-size: 36px; color: #fff;}
@@ -1670,8 +1671,8 @@ img.bg_full {
 .team_h_title_2  { text-align: center !important; color: #fff; clear: left; font-size: 14px; display: block; }
 
 .service_pa { padding: 0px; position: relative;}
-.service_pa2 { padding: 20px 0px 30px 0px; position: relative;}
-.service_pa_right { padding: 60px 0px 20px 0px; position: relative !important;}
+.service_pa2 { padding: 0px 0px 0px 0px; position: relative;}
+.service_pa_right { padding: 60px 0px 0px 0px; position: relative !important;}
 
 .center_image { text-align:center; margin: 0px auto; padding-bottom: 25px;padding-top: 25px;}
 .center_image_2 { text-align:center; margin: 0px auto; padding-bottom: 30px;}
@@ -2442,7 +2443,7 @@ box-shadow:0 0 25px rgba(0,0,0,0.3)
 .pricing .blue .price span{color:#ccc;}
 .pricing .blue .item{background:#fff;padding-top:15px;padding-bottom:15px;font-size: 14px;}
 .pricing .blue .buy .button{font-size: 16px; margin-bottom: 20px;}
-.pricing .pricing_control ul{float:left;width:33.1%;}
+.pricing .pricing_control ul{float:left;width:49.7%;}
  
 .port_wrapper_holder { Padding: 30px 0px 23px 0px; }
 
@@ -2508,7 +2509,7 @@ transition: top .4s linear;
 .view_title_b p {margin: -5px 0px 15px 0px;}
 
 /* Fun facts */
-.fun_wrapper_holder { position: relative;z-index: 5; padding: 30px 0px 45px 0px;  }
+.fun_wrapper_holder { position: relative;z-index: 5; padding: 0px 0px 0px 0px;  }
 .fun_wrapper { background: rgba(119,119,119,0.2); position: relative; }
 .fun_wrapper_inner { padding : 10px 20px;}
 .fun_wrapper h4 { color: #fff; font-weight: 600; font-size : 18px;}
