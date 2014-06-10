@@ -116,7 +116,7 @@
  <div class="container content_wrapper_section2"> 
     <div class="main_title_wrapper">		
 			  <div class="block_tile_wrapper">	 
-			   <h1 class="block_tile_1"> How it Works </h1>
+			   <h1 class="block_tile_1"> Try it now for Free! </h1>
 			    <div class="icon_separator"></div>
 			   <h6 class="block_tile_2"> Lorem ipsum dolor sit amet, Non sed sequi rerumar quasi repellat eum <span class="color_hi">earum praesentium</span> totaral Quia, enim ad minim veniam <br>voluptas eaque anim uis aute senectus et netus et malesuada fames ac turpis
 			   </h6>
@@ -281,7 +281,7 @@
                         <li class="item">Choose your Own Coin Symbol(less than 6 Letters)</li>
 			<li class="item">Free Block Chain Explorer service for Your Coin</li>
                         <li class="item">Free Transaction Confirmation Service(every 5 minutes)</li>
-                        <li class="item">Up to 10 million coins (1000000.00000000)</li>
+                        <li class="item">Up to 10 million coins (10000000.00000000)</li>
                         <li class="item">Free 20 TEND Coins to make 2000 transactions</li>
                         <li class="item">Powerful Silverlight Wallet to manage coins</li>
                         <li class="item">$10 Setup Fee, 24/7 online chat support</li>
@@ -313,10 +313,6 @@
  <div id="coop_background_4" class="bg_parallax">			    
 	        <div class="contact_wrapper">
 			 <div class="container">
-				<div class="row">		 
-				  <div class="span6">
-					<div class="background_gray_con">
-
 <!-- abcform starts --> 
 					    	<div id="container">
 			<div id="contact-form" class="clearfix">
@@ -348,7 +344,7 @@
         <form method="post" action="process.php">
 
             <label for="email">Email Address: <span class="required">*</span></label>
-            <input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="Email" required="required" autofocus/>
+            <input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="Email" required="required" />
 
             <label for="name">CoinName: <span class="required">*</span></label>
             <input type="text" id="coinname" name="coinname" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="eg: ABCoin (in 12 bytes)" required="required" data-ng-maxlength="12"/>
@@ -373,32 +369,6 @@
         </div>
     </div>
 <!-- abcform ends --> 
-
-			   </div>		   
-			   <div class="span6">
-			       <div class="contact_side">
-				     <p>   dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-					  rebum sed diam nonumy eirmod tempom invid ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-					  <h1> WE LOVE TO SUPPORT YOU </h1>
-					  
-					  <div class="contact_detail">
-					     <div class="contact_circle_holder">
-						    <div class="c_d_text">Address :  Wall Street, New York </div><div class="contact_circle"><i class="icon-map-marker"></i></div>
-					     </div>
-						 <div class="contact_circle_holder">
-						    <div class="c_d_text">Phone : +1(111)1-111-111 , +1(111)1-111-111 </div><div class="contact_circle"><i class="icon-phone"></i></div>
-					     </div>
-						 <div class="contact_circle_holder">
-						    <div class="c_d_text">Fax : +1(111)1-111-111 , +1(111)1-111-111 </div><div class="contact_circle"><i class="icon-print"></i></div>
-					     </div>
-						 <div class="contact_circle_holder2">
-						    <div class="c_d_text">Mail : bitcoincds@gmail.com </div><div class="contact_circle"><i class="icon-envelope"></i></div>
-					     </div>
-					  </div>
-					  
-				   </div>
-			   </div>
-			   
 		     </div>		 
 			</div>	
 	 </div>
