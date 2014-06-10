@@ -340,7 +340,7 @@
 				endif;
 				?>
             </ul>
-            <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">We have sent a confirmation email to <?php echo $email;?>. You can activate this coin request by clicking the link from that email.</p>
+            <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">We have sent a confirmation email to <?php echo $email ?>. You can activate this coin request by clicking the link from that email.</p>
         <form method="post" action="process.php">
 
             <label for="email">Email Address: <span class="required">*</span></label>
