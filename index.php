@@ -31,6 +31,11 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.html">
 		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.html">
 		<link rel="shortcut icon" href="ico/favicon.html">
+
+		<!-- abcform head -->
+		<link rel="stylesheet" href="css/form.css?v=2">
+		<script src="js/libs/modernizr-1.7.min.js"></script>
+		<!-- abcform head -->
 	</head>
 
 <body>			
@@ -311,30 +316,65 @@
 				<div class="row">		 
 				  <div class="span6">
 					<div class="background_gray_con">
-					 <h5>Create Coins Now</h5>
-					 <p> consectetur adipisicing elit. Non sed sequi rerumar quasi repellat eum earum praesentium totam vestibum tortor quam, feugiat ultricies euismod indor pharetra orliver eget vitae.  </p>
-					 
-					<form class="contact_form contact_form_h" action="contact.php" style="margin-bottom: 10px;">
-					
-						<div class="input_holder">
-							<input class="field-name" type="text" placeholder="Name (required)">
-						</div>
-						<div class="input_holder">
-							<input class="email_field" type="text" placeholder="Email (required)">
-						</div>
-						<div class="input_holder">
-							<input class="subject_field" type="text" placeholder="Coin Abbr(required)">
-						</div>
-						<div class="textarea_holder">
-							<textarea class="comment_field" placeholder="Message"></textarea>
-						</div>
-						<a href="#" class="button">Create Coins</a>
-						
-					</form>
-                   <div class="clear"></div>					
-				  </div> 
-			   </div>
-			   
+
+<!-- abcform starts --> 
+					    	<div id="container">
+			<div id="contact-form" class="clearfix">
+            <h1>Create Coins Now!</h1>
+            <h2>sed diam nonumy eirmod tempor invid unt ut labore et dolore magna adipiocar scali dolore magna adipiocar scing consect etuer ali stibu</h2>
+            <?php
+			//init variables
+			$cf = array();
+			$sr = false;
+			
+			if(isset($_SESSION['cf_returndata'])){
+				$cf = $_SESSION['cf_returndata'];
+			 	$sr = true;
+			}
+            ?>
+            <ul id="errors" class="<?php echo ($sr && !$cf['form_ok']) ? 'visible' : ''; ?>">
+                <li id="info">There were some problems with your form submission:</li>
+                <?php 
+				if(isset($cf['errors']) && count($cf['errors']) > 0) :
+					foreach($cf['errors'] as $error) :
+				?>
+                <li><?php echo $error ?></li>
+                <?php
+					endforeach;
+				endif;
+				?>
+            </ul>
+            <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">We have sent a confirmation email to <?php echo $email;?>. You can activate this coin request by clicking the link from that email.</p>
+        <form method="post" action="process.php">
+
+            <label for="email">Email Address: <span class="required">*</span></label>
+            <input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="Email" required="required" autofocus/>
+
+            <label for="name">CoinName: <span class="required">*</span></label>
+            <input type="text" id="coinname" name="coinname" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="eg: ABCoin (in 12 bytes)" required="required" data-ng-maxlength="12"/>
+
+            <label for="abbr">Coin abbrevation: <span class="required">*</span></label>
+            <input type="text" id="abbr" name="abbr" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['abbr'] : '' ?>" placeholder="eg: ABC (in 6 bytes)" required="required" data-ng-maxlength="6"/>
+
+            <label for="plan">Pick your plan: <span class="required">*</span></label>
+            <select id="plan" name="plan">
+            <option value="small">Small Business Plan <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['plan'] == 'small') ? "selected='selected'" : '' ?>></option>
+            <option value="enterprise">Enterprise Business Plan <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['plan'] == 'enterprise') ? "selected='selected'" : '' ?>></option>
+            </select>
+
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" placeholder="Leave us some messages here(in 80 bytes)" data-ng-maxlength="80"></textarea>
+
+            <span id="loading"></span>
+            <input type="submit" value="Create Coins" id="submit-button" />
+            <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+        </form>
+            <?php unset($_SESSION['cf_returndata']); ?>
+        </div>
+    </div>
+<!-- abcform ends --> 
+
+			   </div>		   
 			   <div class="span6">
 			       <div class="contact_side">
 				     <p>   dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -409,7 +449,21 @@
 		 </footer> <!-- End Footer -->
 		
 	</div> <!-- End main_wrapper_inner -->	   
-</div> <!-- End main_wrapper -->	
+</div> <!-- End main_wrapper -->
+
+
+
+<!-- abcform script -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
+	<script src="js/plugins.js"></script>
+	<script src="js/script.js"></script>
+	<!--[if lt IE 7 ]>
+	<script src="js/libs/dd_belatedpng.js"></script>
+	<script> DD_belatedPNG.fix('img, .png_bg');</script>
+	<![endif]-->
+<!-- abcform script -->
+
 	
 	
 <!-- jquery -->
