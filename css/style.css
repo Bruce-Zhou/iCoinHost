@@ -3569,7 +3569,7 @@ button.btn.btn-navbar { display: none !important;}
 .number_count { font-size: 42px;}
 .pricing .pricing_control ul {
 float: left;
-width: 24.7%;
+width: 49.7%;
 }
 ul.client_inner_top li:last-child { display: none;}
 .flickr_badge_image img { width: 90px; height: 90px;}
@@ -3595,7 +3595,7 @@ ul.sf-menu li.sfHover ul {	left: 38%;	top: 35px;	z-index: 99; text-align:center 
 .fun_wrapper_inner i {font-size: 25px;position: absolute;margin: 12px 0px 0px 14px;}
 .number_count { font-size: 28px;margin-top: 5px;}
 .team_detail .sub_text1 {font-size: 14px;}
-.pricing .pricing_control ul {float: left;width: 24.7%;}
+.pricing .pricing_control ul {float: left;width: 49.7%;}
 .flickr_badge_image img { width: 65px; height: 65px;}
 .contact_form.contact_form_h .input_holder {	width: 230px;}
 .blog_image { float: none; width: 100%;}

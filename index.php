@@ -254,11 +254,11 @@
                 	<ul>
                     	<li class="price_header">Small Business Plan (0.02 btc)</li>
                         <li class="price">$9.90<span>/ Month</span></li>
-			<li class="item">You can freely customize your coin and have access to Crypto Financial Operating System(CFOS), which means that you can easily share your coins with other people, transfer it from your wallet, trade it and build your own cryptocoin for a trust-based financial future.</li>
+			<li class="item">You can freely customize your coin and have access to Crypto Financial Operating System (CFOS), which means you can easily share your coins with other people, transfer it from your wallet, trade it and build your own cryptocoin for a trust based financial future.</li>
                         <li class="item">Choose your Own Coin Symbol(less than 6 Letters)</li>
 			<li class="item">Free Block Chain Explorer service for Your Coin</li>
 			<li class="item">Free Transaction Confirmation Service(every 5 minutes)</li>
-                        <li class="item">Up to one million coins (1000000.00000000)</li>
+                        <li class="item">Up to 1 million coins (1000000.00000000)</li>
                         <li class="item">Free 10 TEND Coins to make 1000 transactions</li>
 			<li class="item">Powerful Silverlight Wallet to manage coins</li>
                         <li class="item">$10 Setup Fee and email support</li>
@@ -272,14 +272,14 @@
                 	<ul>
                     	<li class="price_header">Enterprise Business Plan (0.10 btc)</li>
                         <li class="price">$49.9<span>/ Month</span></li>
-			<li class="item">In ultimate version, full access to all of our premium services is guaranteed. Additionally, you would receive a chance for learning bitcoin source code, testing experimental projects and working with us in our Github like Cryptocurrency Innovation Lab(CIL).</li>
+			<li class="item">In ultimate version, coins can do more transactions and full access to all of our premium services is guaranteed.Additionally, you would also receive a chance for learning bitcoin source code, testing experimental projects and working with us in our Cryptocurrency Innovation Lab (CIL).</li>
                         <li class="item">Choose your Own Coin Symbol(less than 6 Letters)</li>
 			<li class="item">Free Block Chain Explorer service for Your Coin</li>
                         <li class="item">Free Transaction Confirmation Service(every 5 minutes)</li>
-                        <li class="item">Up to 10 million coins (1000000.00000000), secondary issuing free</li>
+                        <li class="item">Up to 10 million coins (1000000.00000000)</li>
                         <li class="item">Free 20 TEND Coins to make 2000 transactions</li>
                         <li class="item">Powerful Silverlight Wallet to manage coins</li>
-                        <li class="item">$10 Setup Fee and 24/7 online chat support</li>
+                        <li class="item">$10 Setup Fee, 24/7 online chat support</li>
                         <li class="item">Free Commandline to manage your Coins and Wallets</li>
                         <li class="item">Free API and Sample applications</li>
                         <li class="buy"><a href="#create"><button class="button">Get it now</button></a></li>
