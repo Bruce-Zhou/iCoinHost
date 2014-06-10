@@ -347,10 +347,10 @@
             <input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="Email" required="required" />
 
             <label for="name">CoinName: <span class="required">*</span></label>
-            <input type="text" id="coinname" name="coinname" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="eg: ABCoin (in 12 bytes)" required="required" data-ng-maxlength="12"/>
+            <input type="text" id="coinname" name="coinname" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="eg: ABCoin (in 12 bytes)" required="required" maxlength="12"/>
 
             <label for="abbr">Coin abbrevation: <span class="required">*</span></label>
-            <input type="text" id="abbr" name="abbr" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['abbr'] : '' ?>" placeholder="eg: ABC (in 6 bytes)" required="required" data-ng-maxlength="6"/>
+            <input type="text" id="abbr" name="abbr" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['abbr'] : '' ?>" placeholder="eg: ABC (in 6 bytes)" required="required" maxlength="6"/>
 
             <label for="plan">Pick your plan: <span class="required">*</span></label>
             <select id="plan" name="plan">
@@ -359,7 +359,7 @@
             </select>
 
             <label for="message">Message: </label>
-            <textarea id="message" name="message" placeholder="Leave us some messages here(in 80 bytes)" data-ng-maxlength="80"></textarea>
+            <textarea id="message" name="message" placeholder="Leave us some messages here(in 80 bytes)" maxlength="80"></textarea>
 
             <span id="loading"></span>
             <input type="submit" value="Create Coins" id="submit-button" />
