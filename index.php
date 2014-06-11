@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿<?php session_start() ?>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -106,7 +107,7 @@
 			   <h1 class="block_tile_1">ALTCOIN CREATION HAS NEVER BEEN EASIER</h1>
 			    <div class="icon_separator"></div>
 			    <h2 align="center">Create your own 100% premined altcoin today!</h2>
-			    <p align="center">With iCoinhost you can skip time comsuming setup and cut the costly maintenance of transaction confirmation!</p>
+			    <p align="center">Powered by our Crypto Fiancial OS you can skip time comsuming setup and cut the costly maintenance!</p>
 			  </div>		 
 			<div class="clear"></div>		
 		 </div>	  
@@ -116,9 +117,9 @@
  <div class="container content_wrapper_section2"> 
     <div class="main_title_wrapper">		
 			  <div class="block_tile_wrapper">	 
-			   <h1 class="block_tile_1"> Try it now for Free! </h1>
+			   <h1 class="block_tile_1">Bitcoin 2.0 + Wall Street Design</h1>
 			    <div class="icon_separator"></div>
-			   <h6 class="block_tile_2"> Lorem ipsum dolor sit amet, Non sed sequi rerumar quasi repellat eum <span class="color_hi">earum praesentium</span> totaral Quia, enim ad minim veniam <br>voluptas eaque anim uis aute senectus et netus et malesuada fames ac turpis
+			   <h6 class="block_tile_2">We are legally registered USA company based in New York and New Jersey, we dedicated to the next generation of cypto technologies surrounding the new distributed financial market. 
 			   </h6>
 			  </div>		 
 			<div class="clear"></div>		
@@ -131,19 +132,30 @@
                    <div class="service_wrapper3">
                        <img src="images/icons/se1.png" alt="" class="scale-with-grid"/> 
 				        <div class="service_wrapper_inner3">   	  	
-				            <h4><a href="#"> save time and money </a></h4>
-							<div class="sub_dis2"> 100k will be yours just saved </div>
-						    <p> sed diam nonumy eirmod tempor invid unt ut labore et dolore magna adipiocar scali dolore magna adipiocar scing consect etuer ali stibu</p>					                        						  
+				            <h4><a href="#">SECURE and MANAGEABLE</a></h4>
+							<div class="sub_dis2">100% control with no deduction on your coin for transaction fee</div>
+						    <p>We issue up to 10 Million your coins instantly, after that all transactions of your coins are on the blockchain, no one can mine your coin, the total number of your coin always stays the same because we don't use your coin to pay transaction fee.</p>					                        						  
 					    </div> <!-- End service wrapper inner -->
-                      <div class="clear"></div>						
+					 <div class="clear"></div>
 			   	   </div> <!-- End service wrapper -->
+
+                   <div class="service_wrapper3">
+                       <img src="images/icons/se1.png" alt="" class="scale-with-grid"/> 
+				        <div class="service_wrapper_inner3">   	  	
+				            <h4><a href="#">Save Time and Money </a></h4>
+							<div class="sub_dis2">Extemely low fee to build your financial market VS cloning Bitcoin </div>
+						    <p>Any transaction fee for your coin is as low as 1 cent regardless the amount you send, about 50 times lower than Bicoin, you have to have our Cash Coin called TEND in the wallet to pay transaction fee, one TEND coin worths TEN Dollars, and any transaction will have automatically 6 confirmation every 15 minutes. </p>					                        						  
+ 
+					    </div> <!-- End service wrapper inner -->
+					 <div class="clear"></div>
+			   	   </div> <!-- End service wrapper -->
+                   <div class="service_wrapper3"> 
                    		   
-                   <div class="service_wrapper3">   
 				     <img src="images/icons/se2.png" alt="" class="scale-with-grid"/> 
 				      <div class="service_wrapper_inner3"> 	      	  	
-				            <h4><a href="#"> 100% premined no dilution  </a></h4>
-							<div class="sub_dis2"> we spend short time to work </div>
-						    <p> sed diam nonumy eirmod tempor invid unt ut labore et dolore magna adipiocar scali dolore magna adipiocar scing consect etuer ali stibu</p>	
+				            <h4><a href="#">Wall Street Design </a></h4>
+								<div class="sub_dis2">Our system is designed to be financially predictable and flexible</div>
+						    <p>We are an elite group who worked in Wall Street many years, and we use the best methodology to design our Crypto Finanial Opearting System(CFOS) with high quality wallet and asset management UI applicatin called FRONT. </p>	
 					  </div> <!-- End service wrapper inner --> 
 					 <div class="clear"></div>
 			   	   </div> <!-- End service wrapper -->
@@ -259,15 +271,15 @@
                 	<ul>
                     	<li class="price_header">Small Business Plan (0.02 btc)</li>
                         <li class="price">$9.90<span>/ Month</span></li>
-			<li class="item">You can freely customize your coin and have access to Crypto Financial Operating System (CFOS), which means you can easily share your coins with other people, transfer it from your wallet, trade it and build your own cryptocoin for a trust based financial future.</li>
+			<li class="item">You can create your own coin on top of Crypto Financial Operating System (CFOS), you can easily send your coins to other people, add it to exchange, and build your own financial future.</li>
                         <li class="item">Choose your Own Coin Symbol(less than 6 Letters)</li>
 			<li class="item">Free Block Chain Explorer service for Your Coin</li>
-			<li class="item">Free Transaction Confirmation Service(every 5 minutes)</li>
+			<li class="item">Free Transaction Confirmation Service(every 15 minutes)</li>
                         <li class="item">Up to 1 million coins (1000000.00000000)</li>
                         <li class="item">Free 10 TEND Coins to make 1000 transactions</li>
 			<li class="item">Powerful Silverlight Wallet to manage coins</li>
                         <li class="item">$10 Setup Fee and email support</li>
-			<li class="item">Free Commandline to manage your Coins and Wallets</li>
+			<li class="item">Commandline to manage your Coins and Wallets</li>
 			<li class="item">Free API and Sample applications</li>
                         <li class="buy"><a href="#create"><button class="button">Get it now</button></a></li>
                     </ul>
@@ -277,15 +289,15 @@
                 	<ul>
                     	<li class="price_header">Enterprise Business Plan (0.10 btc)</li>
                         <li class="price">$49.9<span>/ Month</span></li>
-			<li class="item">In ultimate version, coins can do more transactions and full access to all of our premium services is guaranteed.Additionally, you would also receive a chance for learning bitcoin source code, testing experimental projects and working with us in our Cryptocurrency Innovation Lab (CIL).</li>
+			<li class="item">You can have more coins with full access to all of our premium services better support, and working with us in our Cryptocurrency Innovation Lab for new features.</li>
                         <li class="item">Choose your Own Coin Symbol(less than 6 Letters)</li>
 			<li class="item">Free Block Chain Explorer service for Your Coin</li>
-                        <li class="item">Free Transaction Confirmation Service(every 5 minutes)</li>
-                        <li class="item">Up to 10 million coins (10000000.00000000)</li>
+                        <li class="item">Free Transaction Confirmation Service(every 15 minutes)</li>
+                        <li class="item">Up to 10 million coins (100000000.00000000)</li>
                         <li class="item">Free 20 TEND Coins to make 2000 transactions</li>
                         <li class="item">Powerful Silverlight Wallet to manage coins</li>
                         <li class="item">$10 Setup Fee, 24/7 online chat support</li>
-                        <li class="item">Free Commandline to manage your Coins and Wallets</li>
+                        <li class="item">Commandline to manage your Coins and Wallets</li>
                         <li class="item">Free API and Sample applications</li>
                         <li class="buy"><a href="#create"><button class="button">Get it now</button></a></li>
                     </ul>
@@ -340,17 +352,17 @@
 				endif;
 				?>
             </ul>
-            <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">We have sent a confirmation email to <?php echo $email;?>. You can activate this coin request by clicking the link from that email.</p>
+            <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">We have sent a confirmation email to <?php echo $email ?>. You can activate this coin request by clicking the link from that email.</p>
         <form method="post" action="process.php">
 
             <label for="email">Email Address: <span class="required">*</span></label>
             <input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="Email" required="required" />
 
             <label for="name">CoinName: <span class="required">*</span></label>
-            <input type="text" id="coinname" name="coinname" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="eg: ABCoin (in 12 bytes)" required="required" data-ng-maxlength="12"/>
+            <input type="text" id="coinname" name="coinname" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="eg: ABCoin (in 12 bytes)" required="required" maxlength="12"/>
 
             <label for="abbr">Coin abbrevation: <span class="required">*</span></label>
-            <input type="text" id="abbr" name="abbr" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['abbr'] : '' ?>" placeholder="eg: ABC (in 6 bytes)" required="required" data-ng-maxlength="6"/>
+            <input type="text" id="abbr" name="abbr" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['abbr'] : '' ?>" placeholder="eg: ABC (in 6 bytes)" required="required" maxlength="6"/>
 
             <label for="plan">Pick your plan: <span class="required">*</span></label>
             <select id="plan" name="plan">
@@ -359,7 +371,7 @@
             </select>
 
             <label for="message">Message: </label>
-            <textarea id="message" name="message" placeholder="Leave us some messages here(in 80 bytes)" data-ng-maxlength="80"></textarea>
+            <textarea id="message" name="message" placeholder="Leave us some messages here(in 80 bytes)" maxlength="80"></textarea>
 
             <span id="loading"></span>
             <input type="submit" value="Create Coins" id="submit-button" />
