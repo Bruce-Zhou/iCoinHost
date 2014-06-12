@@ -119,7 +119,7 @@
 			  <div class="block_tile_wrapper">	 
 			   <h1 class="block_tile_1">Bitcoin 2.0 + Wall Street Design</h1>
 			    <div class="icon_separator"></div>
-			   <h6 class="block_tile_2">We are legally registered USA company based in New York and New Jersey, we dedicated to the next generation of cypto technologies surrounding the new distributed financial market. 
+			   <h6 class="block_tile_2">We are legally registered USA company based in New York and New Jersey, we dedicated to the next generation of crypto technologies surrounding the new distributed financial market. 
 			   </h6>
 			  </div>		 
 			<div class="clear"></div>		
@@ -133,102 +133,45 @@
                        <img src="images/icons/se1.png" alt="" class="scale-with-grid"/> 
 				        <div class="service_wrapper_inner3">   	  	
 				            <h4><a href="#">SECURE and MANAGEABLE</a></h4>
-							<div class="sub_dis2">100% control with no deduction on your coin for transaction fee</div>
+							<div class="sub_dis2">100% control, not using your coin to pay transaction fee</div>
 						    <p>We issue up to 10 Million your coins instantly, after that all transactions of your coins are on the blockchain, no one can mine your coin, the total number of your coin always stays the same because we don't use your coin to pay transaction fee.</p>					                        						  
 					    </div> <!-- End service wrapper inner -->
 					 <div class="clear"></div>
 			   	   </div> <!-- End service wrapper -->
-
-                   <div class="service_wrapper3">
-                       <img src="images/icons/se1.png" alt="" class="scale-with-grid"/> 
+                   <div class="service_wrapper3"> 
+				     <img src="images/icons/se3.png" alt="" class="scale-with-grid"/> 
+				      <div class="service_wrapper_inner3"> 	      	  	
+				            <h4><a href="#">Bitcoin 2.0: New Crypto Assets </a></h4>
+								<div class="sub_dis2">Innovated Bitcoin technology for everyone's financial freedom</div>
+						    <p>With our innovation on top of Bitcoin technology, everyone can build their own financial market at very low cost, also we inherit the decentalized transactional feature and reinventing the traditional Wall Street financial produtsc into new crypto assets.  </p>	
+					  </div> <!-- End service wrapper inner --> 
+					 <div class="clear"></div>
+			   	   </div> <!-- End service wrapper -->
+			</div> 
+            <div class="span6">   
+                <div class="span6">   
+                	<div class="service_wrapper3"> 
+				     <img src="images/icons/se2.png" alt="" class="scale-with-grid" pagespeed_url_hash="2250598887"> 
+				      <div class="service_wrapper_inner3"> 	      	  	
+				            <h4><a href="#" style="color: rgb(85, 85, 85);">Wall Street Design </a></h4>
+								<div class="sub_dis2">Our system is designed to be financially predictable and flexible</div>
+						    <p>We are an elite group who have been working in Wall Street for many years, and we use the best technology and methodology to design our Crypto Finanial Opearting System(CFOS), FRONT is our powerful wallet and asset management front Office platform. </p>	
+					  </div> <!-- End service wrapper inner --> 
+					 <div class="clear"></div>
+			   	   </div>
+  <div class="service_wrapper3">
+                       <img src="images/icons/se1.png" alt="" class="scale-with-grid" pagespeed_url_hash="1956098966"> 
 				        <div class="service_wrapper_inner3">   	  	
-				            <h4><a href="#">Save Time and Money </a></h4>
+				            <h4><a href="#" style="color: rgb(85, 85, 85);">Save Time and Money </a></h4>
 							<div class="sub_dis2">Extemely low fee to build your financial market VS cloning Bitcoin </div>
 						    <p>Any transaction fee for your coin is as low as 1 cent regardless the amount you send, about 50 times lower than Bicoin, you have to have our Cash Coin called TEND in the wallet to pay transaction fee, one TEND coin worths TEN Dollars, and any transaction will have automatically 6 confirmation every 15 minutes. </p>					                        						  
  
 					    </div> <!-- End service wrapper inner -->
 					 <div class="clear"></div>
-			   	   </div> <!-- End service wrapper -->
-                   <div class="service_wrapper3"> 
-                   		   
-				     <img src="images/icons/se2.png" alt="" class="scale-with-grid"/> 
-				      <div class="service_wrapper_inner3"> 	      	  	
-				            <h4><a href="#">Wall Street Design </a></h4>
-								<div class="sub_dis2">Our system is designed to be financially predictable and flexible</div>
-						    <p>We are an elite group who worked in Wall Street many years, and we use the best methodology to design our Crypto Finanial Opearting System(CFOS) with high quality wallet and asset management UI applicatin called FRONT. </p>	
-					  </div> <!-- End service wrapper inner --> 
-					 <div class="clear"></div>
-			   	   </div> <!-- End service wrapper -->
-
-                   <div class="service_wrapper3"> 
-				      <img src="images/icons/se3.png" alt="" class="scale-with-grid"/> 
-					  <div class="service_wrapper_inner3">       	  	
-				            <h4><a href="#"> functional wallet </a></h4>
-							<div class="sub_dis2"> 3000+ users trust us </div>
-						    <p> sed diam nonumy eirmod tempor invid unt ut labore et dolore magna adipiocar scali dolore magna adipiocar scing consect etuer ali stibu</p>						
-					  </div> <!-- End service wrapper inner --> 
-					 <div class="clear"></div>
-			   	   </div> <!-- End service wrapper -->
-		
+			   	   </div>
+			</div>
+		</div>	    
 			</div> 
-            <div class="span6">   
-                <div class="center_image">  
-                      <img src="images/large/iphone_v.png" alt="" class="scale-with-grid"/> 
-                       <span class="clear"></span>					  
-                </div>	    
-			</div> 
-			
-     <div class="mission_wrapper">
-       <div class="count_wrapper clearfix countto">
-
-           <div class="span3">
-              <div class="number_counter" data-perc="179">
-			    <div class="count_border"></div> 
-				<p>Up to</p>
-				<div class="number_count_holder">                     				
-				   <div class="number_count blue">20</div><p class="sub_num">Gb/s</p>
-                </div>  				   
-				<p class="number_text">data transfer bandwidth</p>
-			  </div>
-		   
-           </div>
-		   
-		   <div class="span3">
-              <div class="number_counter" data-perc="45">
-			    <div class="count_border"></div>
-				<p>Daisy chain</p>
-				<div class="number_count_holder">                     				
-				   <div class="number_count blue">36</div>
-                </div>  				   
-				<p class="number_text">devices</p>
-			  </div>
-		   
-           </div>
-		   
-		   <div class="span3">
-              <div class="number_counter" data-perc="77">
-			    <div class="count_border"></div>
-				<p>Up to</p>
-				<div class="number_count_holder">                     				
-				   <div class="number_count blue">25</div><p class="sub_num">x</p>
-                </div>  				   
-				<p class="number_text">faster than FireWire 800</p>
-			  </div>		   
-           </div>
-		   
-		   <div class="span3">
-              <div class="number_counter" data-perc="57">
-			    <div class="count_border"></div>
-				<p>Connect up to</p>
-				<div class="number_count_holder">                     				
-				   <div class="number_count blue">40</div><p class="sub_num">K</p>
-                </div>  				   
-				<p class="number_text">for displays</p>
-			  </div>
-		   
-           </div>
-		   
-       </div>	   
 	 </div><!-- End client h inner -->
 	 
           <span class="clear"></span>
@@ -275,7 +218,7 @@
                         <li class="item">Choose your Own Coin Symbol(less than 6 Letters)</li>
 			<li class="item">Free Block Chain Explorer service for Your Coin</li>
 			<li class="item">Free Transaction Confirmation Service(every 15 minutes)</li>
-                        <li class="item">Up to 1 million coins (1000000.00000000)</li>
+                        <li class="item">Up to 1 million coins (1,000,000.00000000)</li>
                         <li class="item">Free 10 TEND Coins to make 1000 transactions</li>
 			<li class="item">Powerful Silverlight Wallet to manage coins</li>
                         <li class="item">$10 Setup Fee and email support</li>
@@ -289,11 +232,11 @@
                 	<ul>
                     	<li class="price_header">Enterprise Business Plan (0.10 btc)</li>
                         <li class="price">$49.9<span>/ Month</span></li>
-			<li class="item">You can have more coins with full access to all of our premium services better support, and working with us in our Cryptocurrency Innovation Lab for new features.</li>
+			<li class="item">>You can have more coins with full access to all of our premium services, better support are guaranteed and you can also work with us in our Cryptocurrency Innovation Lab for new features.</li>
                         <li class="item">Choose your Own Coin Symbol(less than 6 Letters)</li>
 			<li class="item">Free Block Chain Explorer service for Your Coin</li>
                         <li class="item">Free Transaction Confirmation Service(every 15 minutes)</li>
-                        <li class="item">Up to 10 million coins (100000000.00000000)</li>
+                        <li class="item">Up to 10 million coins (10,000,000.00000000)</li>
                         <li class="item">Free 20 TEND Coins to make 2000 transactions</li>
                         <li class="item">Powerful Silverlight Wallet to manage coins</li>
                         <li class="item">$10 Setup Fee, 24/7 online chat support</li>

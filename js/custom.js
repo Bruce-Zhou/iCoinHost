@@ -1,5 +1,5 @@
 jQuery("body").queryLoader2({
-    barColor: "#3899b5",
+    barColor: "#3c3c3c",
     backgroundColor: "#fff",
     percentage: true,
     barHeight: 4,
@@ -171,13 +171,13 @@ jQuery(function() {
 // Background color animation 
                 "use strict"; 
 				jQuery("a.button,button").hover(function() {
-                jQuery(this).stop().animate({ backgroundColor: "#3899b5" }, 600);
+                jQuery(this).stop().animate({ backgroundColor: "#3c3c3c" }, 600);
                 },function() {
                  jQuery(this).stop().animate({ backgroundColor: "#f1f1f1" }, 400);
                 });
 				
 				jQuery("ul.sf-menu > li").hover(function() {
-                jQuery(this).stop().animate({ backgroundColor: "#3899b5" }, 200);
+                jQuery(this).stop().animate({ backgroundColor: "#3c3c3c" }, 200);
                 },function() {
                  jQuery(this).stop().animate({ backgroundColor: "#fff" }, 200);
                 });
@@ -191,25 +191,25 @@ jQuery(function() {
  // font color animation 
                 
 				jQuery(".service_wrapper_inner h3 a").stop().hover(function() {
-                jQuery(this).stop().animate({ color: "#3899b5" }, 400);
+                jQuery(this).stop().animate({ color: "#3c3c3c" }, 400);
                 },function() {
                 jQuery(this).animate({ color: "#333" }, 500);
                 });
 				
 				jQuery(".service_wrapper_inner3 h4 a").stop().hover(function() {
-                jQuery(this).stop().animate({ color: "#3899b5" }, 400);
+                jQuery(this).stop().animate({ color: "#3c3c3c" }, 400);
                 },function() {
                 jQuery(this).animate({ color: "#555" }, 500);
                 });
 				
 				jQuery(".view_title_port h4,.b_wrapper .home_time_wrap_holder h4").stop().hover(function() {
-                jQuery(this).stop().animate({ color: "#3899b5" }, 400);
+                jQuery(this).stop().animate({ color: "#3c3c3c" }, 400);
                 },function() {
                 jQuery(this).animate({ color: "#4d4d4d" }, 500);
                 });
 				
 				jQuery(".team_h_title a h2").stop().hover(function() {
-                jQuery(this).stop().animate({ color: "#3899b5" }, 400);
+                jQuery(this).stop().animate({ color: "#3c3c3c" }, 400);
                 },function() {
                 jQuery(this).animate({ color: "#fff" }, 500);
                 });
@@ -221,7 +221,7 @@ jQuery(function() {
                 });
 				
 				jQuery(".subfooter .footer_nav a").stop().hover(function() {
-                jQuery(this).stop().animate({ color: "#3899b5" }, 200);
+                jQuery(this).stop().animate({ color: "#3c3c3c" }, 200);
                 },function() {
                 jQuery(this).animate({ color: "#f1f1f1" }, 300);
                 });
@@ -235,11 +235,11 @@ jQuery(function() {
                 jQuery(".view_title_port_p_2 h4").stop().hover(function() {
                 jQuery(this).stop().animate({ color: "#4d4d4d" }, 400);
                 },function() {
-                jQuery(this).animate({ color: "#3899b5" }, 500);
+                jQuery(this).animate({ color: "#3c3c3c" }, 500);
                 });
 				
 				jQuery(".widget .categories li a").stop().hover(function() {
-                jQuery(this).stop().animate({ color: "#3899b5" }, 400);
+                jQuery(this).stop().animate({ color: "#3c3c3c" }, 400);
                 },function() {
                 jQuery(this).animate({ color: "#555" }, 500);
                 });
@@ -247,17 +247,17 @@ jQuery(function() {
 				jQuery(".sub_pb_title a").stop().hover(function() {
                 jQuery(this).stop().animate({ color: "#555" }, 400);
                 },function() {
-                jQuery(this).animate({ color: "#3899b5" }, 500);
+                jQuery(this).animate({ color: "#3c3c3c" }, 500);
                 });
 				
 				jQuery(".view_title_port h4, .view_title_port_p h4").stop().hover(function() {
-                jQuery(this).stop().animate({ color: "#3899b5" }, 300);
+                jQuery(this).stop().animate({ color: "#3c3c3c" }, 300);
                 },function() {
                 jQuery(this).animate({ color: "#4d4d4d" }, 300);
                 });
 				
 				jQuery(".port_inner .text_soft").stop().hover(function() {
-                jQuery(this).stop().animate({ color: "#3899b5" }, 400);
+                jQuery(this).stop().animate({ color: "#3c3c3c" }, 400);
                 },function() {
                 jQuery(this).animate({ color: "#c6c6c6" }, 500);
                 });
@@ -269,19 +269,19 @@ jQuery(function() {
                 });
 				
 				jQuery(".port_sing_ti a").stop().hover(function() {
-                jQuery(this).stop().animate({ color: "#3899b5" }, 400);
+                jQuery(this).stop().animate({ color: "#3c3c3c" }, 400);
                 },function() {
                 jQuery(this).animate({ color: "#333" }, 500);
                 });
 				
 				jQuery(".blog_title a").stop().hover(function() {
-                jQuery(this).stop().animate({ color: "#3899b5" }, 400);
+                jQuery(this).stop().animate({ color: "#3c3c3c" }, 400);
                 },function() {
                 jQuery(this).animate({ color: "#333" }, 500);
                 });
 				
 				jQuery(".blog_post a.readmore_b h6").stop().hover(function() {
-                jQuery(this).stop().animate({ color: "#3899b5" }, 400);
+                jQuery(this).stop().animate({ color: "#3c3c3c" }, 400);
                 },function() {
                 jQuery(this).animate({ color: "#333" }, 500);
                 });
@@ -295,13 +295,13 @@ jQuery(function() {
 // border color animate	
 				
 				jQuery('.view_title').hover(function() {
-	            jQuery(this).animate({ borderBottomColor: "#3899b5" }, '400');
+	            jQuery(this).animate({ borderBottomColor: "#3c3c3c" }, '400');
                 },function() {
 	            jQuery(this).animate({ borderBottomColor: "#e6e6e6" }, '500');
                 });
 				
 				jQuery('.flickr_badge_image img').hover(function() {
-	            jQuery(this).animate({ borderColor: "#3899b5" }, '400');
+	            jQuery(this).animate({ borderColor: "#3c3c3c" }, '400');
                 },function() {
 	            jQuery(this).animate({ borderColor: "#e3e3e3" }, '500');
                 });
